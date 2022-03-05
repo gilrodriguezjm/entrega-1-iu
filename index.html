@@ -10,11 +10,16 @@
     <h1>Formulario</h1>
 
     <form action="">
-        <label for="nombre">Nombre:</label><input type="text" name="nombre" id="nombre" placeholder="José Manuel" required="required" autocomplete="on">
+        <label for="nombre">Nombre: </label><input type="text" name="nombre" id="nombre" placeholder="José Manuel" required="required" autocomplete="on">
         <br><br>
-        <label for="apellido">Apellido:</label><input type="text" name="apellido" id="apellido" placeholder="Gil" required="required" autocomplete="on">
+        <label for="apellido">Apellido: </label><input type="text" name="apellido" id="apellido" placeholder="Gil" required="required" autocomplete="on">
         <br><br>
-
+        <label for="fechanacimiento">Fecha de nacimiento: </label><input type="date" name="fechanacimiento" id="fechanacimiento" required="required" autocomplete="on">
+        <br><br>
+        <label for="email">Email: </label><input type="email" name="email" id="email" placeholder="gil@uma.es" required="required" autocomplete="on">
+        <br><br>
+        <label for="telefono">Teléfono: </label><input type="tel" name="telefono" id="telefono" placeholder="123 456 789" pattern="[6-7]{3} [0-9]{3} [0-9]{3}" required="required" autocomplete="on">
+        
         <input type="submit" value="Enviar">
     </form>
 
